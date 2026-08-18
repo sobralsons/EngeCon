@@ -1,5 +1,7 @@
 # ☕ Financial Analytics — Cafeterias
 
+![Tests](https://github.com/sobralsons/EngeCon/actions/workflows/tests.yml/badge.svg)
+
 Aplicação em Python criada para organizar e analisar a operação financeira de duas unidades fictícias de cafeteria.
 
 > **Portfólio público:** todos os nomes, valores e dados desta versão são fictícios. Nenhum extrato, saldo, fornecedor, credencial ou informação financeira real é distribuído neste repositório.
@@ -74,7 +76,13 @@ streamlit run app.py
 
 O banco local é criado automaticamente em `data/financial_portfolio.db` e é ignorado pelo Git.
 
-## CSV de exemplo
+## Dados de demonstração
+
+A aplicação possui um botão para inserir lançamentos fictícios automaticamente. Também há um arquivo pronto em:
+
+`examples/sample_transactions.csv`
+
+Formato esperado:
 
 ```csv
 date,description,amount
